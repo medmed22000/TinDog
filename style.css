@@ -298,4 +298,15 @@
     .testimonial .ads div {
         width: 150px;
     }
+
+    .heading .picture  {
+        height: 400px;
+    }
+
+    .button button {
+        font-size: 15px;
+        height: max-content;
+    }
+
+    
 }
