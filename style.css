@@ -1,0 +1,284 @@
+/* Gradient Background */
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Heading Section */
+.heading {
+    padding: 0px 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 695px;
+}
+.heading div {
+    padding: 0%;
+    display: flex;
+}
+.heading .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading .text h1 {
+    font-size: 3vw;
+    width: auto;
+    font-weight: 500;
+    color: black;
+}
+.heading .text div {
+    margin: 0px;
+}
+.text * {
+    margin: 15px;
+}
+.picture {
+    align-items: flex-end;
+    justify-content: center;
+}
+.heading button img {
+    margin: 0px;
+    margin-bottom: 4px;
+}
+
+/* Buttons */
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.button button {
+    font-size: 20px;
+    width: max-content;
+    padding: 8px 20px;
+    height: 47px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+/* Features Section */
+.features {
+    padding: 55px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7px;
+}
+.features > div {
+    display: grid;
+    grid-template-columns: 60px 3fr;
+    justify-content: center;
+    padding: 10px;
+}
+.features .svg {
+    background-color: rgba(152, 152, 152, 0.223);
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+}
+.features .svg img {
+    padding: 0px;
+    margin: 0px;
+}
+.features h1 {
+    font-size: 30px;
+    margin: 0px;
+}
+.features p {
+    margin: 0px;
+}
+
+
+/* Testimonial Section */
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 140px;
+    padding-top: 80px;
+    gap: 50px 0px;
+}
+.testimonial h1 {
+    text-align: center;
+    font-size: 30px;
+}
+.testimonial .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial .profile img {
+    border-radius: 50%;
+}
+.testimonial p {
+    font-size: 17px;
+    text-align: center;
+}
+.testimonial .ads {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.testimonial .ads div{
+    flex:1 ;
+    width: 25vh;
+}
+/* Pricing Section */
+.pricing {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 90px;
+}
+.pricing h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+.pricing p {
+    font-size: 20px;
+}
+.pricing .tables {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px 20px;
+}
+.pricing .tables > div {
+    height: 300px;
+    min-width: 250px;
+    border-radius: 10px;
+    border: rgba(192, 189, 189, 0.582) solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Pricing Subsections: Top, Mid, and Bottom */
+.pricing .top {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(189, 188, 188, 0.108);
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: rgba(192, 189, 189, 0.582) solid 1px;
+    align-content: center;
+}
+.pricing .top h2 {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0px;
+}
+.pricing .mid {
+    height: 140px;
+}
+.pricing .mid h1 {
+    font-size: 40px;
+}
+.pricing .mid p {
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0px;
+}
+.pricing .bottom {
+    border: black solid 2px;
+    border-radius: 10px;
+    height: 50px;
+    width: 90%;
+    align-content: center;
+}
+.pricing .bottom h2 {
+    margin: 0px;
+    font-size: 20px;
+}
+.pricing .t2 .bottom {
+    background-color: black;
+}
+.pricing .t2 .bottom h2 {
+    color: white;
+}
+.pricing .t3 .bottom,
+.pricing .t3 .top {
+    background-color: black;
+}
+.pricing .t3 .bottom h2,
+.pricing .t3 .top h2 {
+    color: white;
+}
+
+/* Footer Section */
+.footer {
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+}
+.footer .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 44px 0px;
+}
+.footer .list h1 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.footer .list h2 {
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px 0px;
+}
+
+.footer .list a {
+    text-decoration: none;
+    color: black;
+}
+
+.copy_right h1 {
+    font-weight: 300;
+    font-size: 17px;
+}
+.copy_right div {
+    padding: 45px;
+}
+
+/* Media Queries */
+@media (max-width: 1000px) {
+    .heading {
+        height: 100%;
+        grid-template-columns: 1fr;
+    }
+    .picture img {
+        height: 90%;
+    }
+    .heading .text {
+        order: 2;
+        align-items: center;
+    }
+
+    .features {
+        grid-template-columns: 1fr ;
+    }
+    .features > div 
+}
+@media (max-width: 800px) {
+    .heading .text h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+}
