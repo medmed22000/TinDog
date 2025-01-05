@@ -34,6 +34,7 @@
     justify-content: center;
 }
 .heading .text h1 {
+    font-family: cursive;
     font-size: 3vw;
     width: auto;
     font-weight: 500;
@@ -114,6 +115,7 @@
     gap: 50px 0px;
 }
 .testimonial h1 {
+    font-family: cursive;
     text-align: center;
     font-size: 30px;
 }
@@ -191,6 +193,7 @@
     align-content: center;
 }
 .pricing .top h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400;
     font-size: 25px;
     margin: 0px;
@@ -202,6 +205,7 @@
     font-size: 40px;
 }
 .pricing .mid p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 300;
     font-size: 18px;
     margin: 0px;
@@ -214,6 +218,7 @@
     align-content: center;
 }
 .pricing .bottom h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
     font-size: 20px;
 }
@@ -261,7 +266,7 @@
 }
 
 .dropdown span {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: none;
 }
 
